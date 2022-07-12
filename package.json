@@ -1,20 +1,23 @@
 {
-  "name": "project-ui-local",
+  "name": "cypress-ui-bash",
   "version": "1.0.0",
-  "description": "",
+  "description": "New test automation test framework for UI testing - cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ariuna8/local-project-ui-tests.git"
+    "url": "git+https://github.com/ILopatenko/cypress-ui-bash.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ariuna8/local-project-ui-tests/issues"
+    "url": "https://github.com/ILopatenko/cypress-ui-bash/issues"
   },
-  "homepage": "https://github.com/Ariuna8/local-project-ui-tests#readme"
+  "homepage": "https://github.com/ILopatenko/cypress-ui-bash#readme",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
 }
